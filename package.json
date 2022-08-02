@@ -1,0 +1,24 @@
+{
+  "name": "carousel-web-page",
+  "version": "1.0.0",
+  "description": "a practice project to create a fully functioning local website that servers as a carousel",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aferranteportfolio/carousel-web-page-pracice.git"
+  },
+  "author": "Adriano Ferrante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aferranteportfolio/carousel-web-page-pracice/issues"
+  },
+  "homepage": "https://github.com/aferranteportfolio/carousel-web-page-pracice#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
