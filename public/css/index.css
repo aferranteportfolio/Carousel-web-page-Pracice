@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body{
+
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -36,19 +37,22 @@ ul li a{
 
 .magGlassIcon{
   padding-right: 10px;
+  cursor: pointer;
 }
 
 .liSignIn {
   border: 2px solid #fff;
   margin: 8px;
   padding: 5px 10px;
+  cursor: pointer;
 }
 
 .RegistrationButt{
   margin: 8px;
   padding: 5px 10px;
   background-color: #fff;
-  border-radius: 3px
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .RegistrationEvent{
@@ -61,13 +65,113 @@ ul li a{
 
 
 main {
+  align-items: center;
   height: fill;
-  background-color: beige;
 }
+
+body{
+  
+  background-image: url("/public/css/resources/logos,icons,misc/background 1.png");
+  animation: change 20s infinite ease-in-out;
+}
+
+.mainContent{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    position: absolute;
+    width: 100%;
+}
+
+
+.blockContent{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48;
+  margin-bottom: 50px;
+  margin-top: 26px
+}
+
+.ctaButton {
+  height: 70px;
+  width: 230px;
+  font-size: 30px;
+  margin: 8px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.bottomSegment{
+display: flex;
+bottom: 95px;
+position: absolute;
+width: 100%;
+flex-direction: column;
+align-items: center;
+}
+
+.closingStatment{
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+.closingStatment2{
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+
 footer {
-  height: 100px;
-  background-color: pink;
+  display: flex;
+  position : absolute;
+  bottom : 0;
+  height : 80px;
+  width: 100%;
+  margin-top : 40px;
+  background-color: black;
+  color: #fff;
+  padding: 0 25px;
 }
 
+.footerUl{
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  
+}
 
+li{
+  justify-content: center;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+@keyframes change{
+  0%
+  {
+    background-image: url("/public/css/resources/logos,icons,misc/background 1.png");
+  }
+  40%
+  {
+    background-image: url("/public/css/resources/logos,icons,misc/background 2.png");
+  }
+  80%
+  {
+    background-image: url("/public/css/resources/logos,icons,misc/background 3.png");
+  }
+}
 
